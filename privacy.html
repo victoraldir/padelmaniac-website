@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy Policy — Padel Pro</title>
+  <meta name="description" content="How Padel Pro handles your data: no accounts, no ads, no analytics. What online play exchanges and for how long.">
+  <meta name="theme-color" content="#070e1a">
+  <link rel="icon" href="assets/img/icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="./"><img src="assets/img/icon.svg" alt="" width="34" height="34">PADEL PRO</a>
+      <nav class="nav" aria-label="Main">
+        <a class="hide-sm" href="./#features">Features</a>
+        <a href="support.html">Support</a>
+        <a href="privacy.html" aria-current="page">Privacy</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="page-head">
+      <div class="wrap">
+        <h1>Privacy Policy</h1>
+        <p>Effective October 17, 2026 · Applies to the Padel Pro game for Android (package <code>com.quartzodev.padelmaniac</code>).</p>
+      </div>
+    </div>
+
+    <div class="wrap prose">
+      <div class="callout">
+        <p><strong>In short:</strong> Padel Pro has no accounts, no ads and no analytics, and doesn't collect your personal data. Playing against the computer or in training mode happens entirely on your device. When you play a friend online, the game connects your device to theirs and exchanges the technical details needed for that connection. Nothing about you is stored beyond the match.</p>
+      </div>
+
+      <h2>1. Data we collect</h2>
+      <p>We don't ask for, collect or store your name, email, contacts, photos, location, advertising ID or other device identifiers. The game has no sign-up and contains no advertising or analytics software. It doesn't save any files about you on your device.</p>
+
+      <h2>2. Playing on your own</h2>
+      <p>Matches against the computer and training mode run entirely on your device. No data is sent over the network.</p>
+
+      <h2>3. Playing a friend online</h2>
+      <p>When you use <strong>Play Online</strong>, the game:</p>
+      <ul>
+        <li><strong>Creates a room</strong> on our matchmaking service and gives you a 6-character room code to share with your friend. Your friend enters the code to join.</li>
+        <li><strong>Exchanges connection details</strong> between the two devices through the matchmaking service: network addresses (including IP addresses) and connection parameters, so that the devices can connect to each other.</li>
+        <li><strong>Sends gameplay data directly between the two devices</strong>: player positions, shots and the score. When a direct connection isn't possible, this traffic passes through a relay server (TURN) operated for us by Amazon Web Services. The relay forwards the traffic without storing it.</li>
+      </ul>
+      <p>Because the connection is direct, <strong>your device's IP address is visible to the other player's device</strong>, as with most peer-to-peer online games. Only play online with people you know. There's no chat, and players don't exchange any other content.</p>
+
+      <h3>What the matchmaking service keeps, and for how long</h3>
+      <div class="table-scroll">
+        <table class="data">
+          <thead><tr><th>Data</th><th>Why</th><th>Kept for</th></tr></thead>
+          <tbody>
+            <tr><td>Room code and room state</td><td>To let your friend join, and to let both of you reconnect if the connection drops mid-match</td><td>Deleted when the match ends, and automatically within 2 hours at most (15 minutes if nobody joins)</td></tr>
+            <tr><td>Temporary connection identifiers and a random match key</td><td>To route messages between the two players and allow a reconnect</td><td>Same as the room</td></tr>
+            <tr><td>Network addresses (IP addresses) and connection parameters</td><td>Passed between the two players to set up the connection</td><td>Not stored: relayed in real time only</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>We don't keep logs of who played whom, and we don't use online play data for any other purpose.</p>
+
+      <h2>4. Service providers</h2>
+      <p>The matchmaking service and relay servers are hosted on <strong>Amazon Web Services (AWS)</strong> in the European Union (Frankfurt, Germany). AWS processes this data on our behalf only to provide the service. The game is distributed through <strong>Google Play</strong>; downloads and updates are covered by Google's own privacy policy.</p>
+
+      <h2>5. Security</h2>
+      <p>Connections to the matchmaking service use TLS (secure WebSockets), and the connection between players is encrypted with DTLS, the standard encryption for WebRTC.</p>
+
+      <h2>6. Permissions</h2>
+      <p>The game uses Android's <strong>Internet</strong> permission for online play only. It doesn't request access to your location, camera, microphone, contacts or storage. If you tap <em>Copy Code</em>, the room code is placed on your clipboard so you can share it.</p>
+
+      <h2>7. Children</h2>
+      <p>The game doesn't knowingly collect personal information from anyone, including children under 13. Online play is meant for playing with friends you share a code with.</p>
+
+      <h2>8. Your choices and rights</h2>
+      <p>You can play without ever using online features. Since we don't store personal data, there's no account or history to access or delete. If you have a question or request about your data, contact us below.</p>
+
+      <h2>9. Changes to this policy</h2>
+      <p>If the game starts handling data differently, we'll update this page and the effective date above before the change ships.</p>
+
+      <h2>10. Contact</h2>
+      <p>Questions about this policy or the game: <a href="https://github.com/victoraldir/padelmaniac-website/issues">open an issue on GitHub</a>, or see the <a href="support.html">Support page</a>.</p>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <span>© 2026 Padel Pro</span>
+      <nav aria-label="Footer">
+        <a href="./">Home</a>
+        <a href="support.html">Support</a>
+        <a href="privacy.html">Privacy Policy</a>
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>
